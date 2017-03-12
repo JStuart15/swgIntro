@@ -5,50 +5,72 @@
 -->
 <html>
     <head>
+        <link 
+            href="restaurantStyles.css"
+            rel="stylesheet" 
+            type="text/css" />
         <title>Native Tongues</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <h1 align="center">Native Tongues</h1>
+        <h1 class="center">Native Tongues</h1>
         <hr>
-        <a href="restaurantHome.html" style="padding-right:25px">Home</a>
-        <a href="restaurantMenu.html" style="padding-right:25px">Menu</a>
+        <a href="restaurantHome.html">Home</a>
+        <a href="restaurantMenu.html">Menu</a>
         <a href="restaurantContact.html">Contact Us</a>
         <hr>
+        
+        <style>
+            .center{
+                text-align: center;
+            }
+            th,td{
+                padding: 10px;
+                text-align: center;
+                vertical-align: top;
+            }
+            table{
+                border: 0px;
+                width: 100%;
+            }
+            .bold{
+                font-weight: bold;
+            }
+        </style>
     </head>
     
     <body>
-        <table align="center" border="0" cellpadding="10">
-            <tr align="center" valign="top">
+        <table align="center">
+            <tr>
                 <td>
-                    <strong>Suadero</strong><br>
+                    <p class="bold">Suadero</p>
                     beef brisket, white onion, cilantro<br>
                     $3.50
                 </td>
                 <td>
-                    <strong>Carnitas</strong><br>
+                    <p class="bold">Carnitas</p>
                     confit pork, white onion, cilantro<br>
                     $4.50
                 </td>
                 <td>
-                    <strong>Chorizo con Papas</strong><br>
+                    <p class="bold">Chorizo con Papas</p>
                     chorizo rojo, potatoes, white onion, cilantro<br>
                     $5.50
                 </td>
             </tr>
-            <tr align="center" valign="top">
+            <tr>
                 <td>
-                    <strong>Pollo Adobo</strong><br>
+                    <p class="bold">Pollo Adobo</p>
                     roast organic chicken, adobo sauce, pickled red onion, 
                     cilantro<br>
                     $3.50
                 </td>
                 <td>
-                    <strong>Frijoles</strong><br>
+                    <p class="bold">Frijoles</p>
                     refried beans, crema, queso fresco, cilantro<br>
                     $4.50
                 </td>
                 <td>
-                    <strong>Hongos</strong><br>
+                    <p class="bold">Hongos</p>
                     locally cultivated mushrooms, kale, cream, queso fresco, 
                     cilantro<br>
                     $3.50
@@ -59,8 +81,8 @@
     
     <footer>
         <hr>
-        <div align="center">
-            235 12th Ave. SW Calgary, AB T2R 1H7 Canada<br><br>
+        <div class="center">
+            235 12th Ave. SW Calgary, AB T2R 1H7 Canada<br>
             403-263-9444
         </div>
     </footer>

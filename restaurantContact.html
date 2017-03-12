@@ -5,34 +5,55 @@
 -->
 <html>
     <head>
+        <link 
+            href="restaurantStyles.css"
+            rel="stylesheet" 
+            type="text/css" />
         <title>Native Tongues</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <h1 align="center">Native Tongues</h1>
+        <h1 class="center">Native Tongues</h1>
         <hr>
-        <a href="restaurantHome.html" style="padding-right:25px">Home</a>
-        <a href="restaurantMenu.html" style="padding-right:25px">Menu</a>
+        <a href="restaurantHome.html">Home</a>
+        <a href="restaurantMenu.html">Menu</a>
         <a href="restaurantContact.html">Contact Us</a>
         <hr>
+        <style>
+            .center{
+                text-align: center;
+            }
+            
+            .right{
+                text-align: right;
+            }
+
+            th,td{
+                padding: 5px;
+                vertical-align: top;
+            }
+            textarea{
+                 height: 100px;
+            }
+        </style>
     </head>
     
     <body>
         <form>
-            <table align="center" cellpadding="8">
+            <table>
                 <tr>
-                    <td align="right">Name:</td>
+                    <td class="right">Name:</td>
                     <td><input type="text"</td>
                 </tr>
                 <tr>
-                    <td align="right">Email:</td>
+                    <td class="right">Email:</td>
                     <td><input type="text"</td>
                 </tr>                
                 <tr>
-                    <td align="right">Phone:</td>
+                    <td class="right">Phone:</td>
                     <td><input type="text"</td>
                 </tr> 
                 <tr>
-                    <td align="right">Reason for Inquiry:</td>
+                    <td class="right">Reason for Inquiry:</td>
                     <td>
                         <select name="reason">
                             <option value="Catering" selected="selected">Catering</option>
@@ -43,20 +64,20 @@
                     </td>
                 </tr> 
                 <tr>
-                    <td align="right" valign="top">Additional Information:</td>
+                    <td class="right">Additional Information:</td>
                     <td>
-                        <textarea style="height: 100px"></textarea>
+                        <textarea></textarea>
                     </td>
                 </tr> 
                 <tr>
-                    <td align="right">Have you been to the restaurant?</td>
+                    <td class="right">Have you been to the restaurant?</td>
                     <td>
                         <input type="radio" name="beenthere" value="No">No
                         <input type="radio" name="beenthere" value="Yes">Yes
                     </td>
                 </tr>   
                 <tr>
-                    <td align="right">Best days to contact you:</td>
+                    <td class="right">Best days to contact you:</td>
                     <td>
                         <input type="checkbox" name="bestdays" value="M">M
                         <input type="checkbox" name="bestdays" value="T">T
@@ -66,7 +87,7 @@
                 </tr>    
                 <tr>
                     <td></td>
-                    <td align="right">
+                    <td class="right">
                         <input type="submit" value="Send Request"/>
                     </td>
                 </tr>                 
@@ -76,8 +97,8 @@
     
     <footer>
         <hr>
-        <div align="center">
-            235 12th Ave. SW Calgary, AB T2R 1H7 Canada<br><br>
+        <div class="center">
+            235 12th Ave. SW Calgary, AB T2R 1H7 Canada<br>
             403-263-9444
         </div>
     </footer>

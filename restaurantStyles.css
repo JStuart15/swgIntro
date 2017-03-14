@@ -8,8 +8,11 @@ and open the template in the editor.
     Author     : jstuart15
 */
 
-body{
-    background-color: lightgray;
+.background1{
+    background-color: #EDBB99;
+}
+.background2{
+    background-color: #FBEEE6;
 }
 a {
     text-decoration: none;
@@ -23,4 +26,10 @@ a:hover{
 
 .center{
     text-align: center;
+}
+
+.menuItemName{
+    font-family: purisa;
+    font-size: larger;
+    font-weight: bold;
 }

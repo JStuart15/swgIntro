@@ -8,6 +8,13 @@ and open the template in the editor.
     Author     : jeff stuart
 */
 
+/*.divImage{
+    height: 425px;
+    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71u8h7Mz8tL._SX466_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
+
 .center {
     text-align: center;
 }
@@ -26,15 +33,9 @@ table{
     width: 100%;
 }
 
-th,td{
+/*th,td{
     border-bottom: 1px solid #000000;
     font-style: italic;
-    background-color:azure;
+    background-color:azure;*/
 }
 
-.divImage{
-    height: 425px;
-    background-image: url("https://images-na.ssl-images-amazon.com/images/I/71u8h7Mz8tL._SX466_.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-}

@@ -24,6 +24,13 @@ a:hover{
     font-weight: bold;
 }
 
+a:visited{
+    color: red;
+}
+
+a:active{
+    text-decoration: none;
+}
 .center{
     text-align: center;
 }

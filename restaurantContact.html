@@ -3,22 +3,48 @@
  restaurantHome.html
  by Jeff Stuart
 -->
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">   
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Native Tongues</title>      
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    
         <link 
             href="restaurantStyles.css"
             rel="stylesheet" 
             type="text/css" />
-        <title>Native Tongues</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <h1 class="center">
-            <span style="font-family: 'purisa'">Native Tongues</span>
+        <span style="font-family: 'purisa'">Native Tongues</span>
         </h1>
         <hr>
-        <a href="restaurantHome.html">Home</a>
-        <a href="restaurantMenu.html">Menu</a>
-        <a href="restaurantContact.html">Contact Us</a>
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="restaurantHome.html">
+                  <span class="glyphicon glyphicon-home"></span></a></li>
+          <li role="presentation"><a href="restaurantMenu.html">Menu</a></li>
+          <li role="presentation" class="active"><a href="restaurantContact.html">Contact Us</a></li>
+        </ul>
+        
+        <div class="jumbotron">
+            <div class='container'>
+                <h1>Big news!</h1>
+                <p>We're opening a new location. Is it near you?</p>
+                <p><a class='btn btn-primary btn-lg' href='#' role='button'>Show me</a></p>
+            </div>
+        </div>
+        
         <hr>
         <style>
             .center{
@@ -95,13 +121,22 @@
                 </tr>                 
             </table>
         </form>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
     </body>
     
     <footer>
         <hr>
-        <div class="center">
-            235 12th Ave. SW Calgary, AB T2R 1H7 Canada<br>
-            403-263-9444
+        <div class="container">
+            <div class="row">
+                <div class="center-block">
+                    <p class="text-center">235 12th Ave. SW Calgary, AB T2R 1H7 Canada</p>
+                    <p class="text-center">403-263-9444</p>
+                </div>
+            </div>
         </div>
     </footer>
+    
 </html>
